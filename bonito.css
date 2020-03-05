@@ -1,0 +1,121 @@
+ @font-face {
+     font-family: Roboto-bold;
+     src: url(Roboto-Bold.ttf);
+ }
+ @font-face {
+     font-family: Tangerine-Bold;
+     src: url(Tangerine_Bold.ttf);
+ }
+ @font-face {
+     font-family: lazy;
+     src: url(lazy.otf);
+ }
+ .texto_pie {
+     font-family: lazy;
+     font-size: 30px;
+ }
+ .texto_titulo {
+     font-family: roboto-bold;
+ }
+ .texto_slogan {
+     font-family: Tangerine-Bold;
+     font-size: 40px;
+     text-align: center;
+ }
+ .texto_slogan2 {
+     font-family: Tangerine-Bold;
+     font-size: 50px;
+     text-align: center;
+ }
+ 
+ a{
+     text-decoration: none;
+     padding-right: 10px;
+
+ }
+ .wrapper {
+     display: grid;
+     grid-template-columns: repeat(6, 1fr);
+     gap: 1em;
+     grid-auto-rows: minmax(100px, auto);
+     align-items: stretch;
+ }
+ .wrapper2 {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     gap: 1em;
+     grid-auto-rows: minmax(100px, auto);
+     align-items: stretch;
+     grid-column: 1/7;
+ }
+ .wrapper2 div {
+     padding: 1em;
+ }
+ .wrapper div {
+     
+     padding: 1em;
+ }
+ .wrapper .wrapper2 div {
+     padding: 1em;
+ }
+ .one {
+     grid-column: 1 / 7;
+ }
+ .two {
+     grid-column: 2 / 3;
+ }
+ .three {
+
+     grid-column: 1/2;
+       grid-row: 2/5;
+ }
+ .four {
+     text-align:justify;
+     grid-column: 2/7;
+      
+
+ }
+ .experiencias{
+     text-align: justify;
+     grid-column: 2/7;
+      
+
+ }
+
+ .habilidades{
+     text-align: justify;
+     grid-column: 2/7;
+
+ }
+ .diez {
+     text-align: left;
+     grid-column: 1/2;
+ }
+ .once {
+     grid-column: 2/3;
+ }
+ .doce {
+     grid-column: 1/7;
+ }
+ ul {
+     counter-reset: item;
+ }
+ ul li {
+     list-style: circle inside;
+     *list-style: decimal;
+     /* IE7 e IE6*/
+     padding: 4px 8px;
+ }
+ ul li:before {
+     display: inline-block;
+     background-color: #323232;
+     color: #fbfbfb;
+     padding: 0 4px;
+     margin: 0 4px;
+ }
+ ul li ul li:before {
+     padding: 0 2px;
+ }
+
+
+ 
